@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>积识塘</title>
+        <link>https://valaxy.site/</link>
+        <description>不积跬步，无以至千里</description>
+        <lastBuildDate>Fri, 01 Mar 2024 01:54:16 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>积识塘</title>
+            <url>https://valaxy.site/logo.png</url>
+            <link>https://valaxy.site/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © XieZongChen</copyright>
+        <atom:link href="https://valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[webpack实战——配置生产环境]]></title>
+            <link>https://valaxy.site/posts/webpack-pro/index</link>
+            <guid>https://valaxy.site/posts/webpack-pro/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>之前我们已经学习了开发环境的搭建（不熟悉的同学请先去熟悉开发环境的搭建）。开发环境是将源代码经过 webpack 编译成浏览器能识别的语法，并输出成 bundle，同时为了让程序员更加</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[webpack实战——配置开发环境]]></title>
+            <link>https://valaxy.site/posts/webpack-dev/index</link>
+            <guid>https://valaxy.site/posts/webpack-dev/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>webpack 是一种前端资源构建工具——它是一种工具。我们日常生活中遇到新型工具时，都是上手实际操作一下才能掌握工具的使用。在学会使用工具前，我们是不会刻意去先理解工具的原理。web</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[webpack实战——性能优化]]></title>
+            <link>https://valaxy.site/posts/webpack-optimization/index</link>
+            <guid>https://valaxy.site/posts/webpack-optimization/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>我们已经学习完了开发环境和成产环境的配置，接下来学习 webpack 的性能优化。从环境角度讲，性能优化分为开发环境性能优化和生产环境性能优化。对于开发环境，我们需要优化打包构建速度、</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[Rust 生命周期一些案例及分析]]></title>
+            <link>https://valaxy.site/posts/learn-rust-lifetimes-condition-research</link>
+            <guid>https://valaxy.site/posts/learn-rust-lifetimes-condition-research</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>案例一</h3>
+<p>画出生命周期</p>
+<pre><code class="language-rust">// `i` 拥有最长的生命周期，因为它的作用域完整的包含了 `borrow1` 和 `borrow2` 。
+// 而 `borrow1` 和 `b</code></pre>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[Naive-UI provider management（Naive-UI 统一管理 provider 封装）]]></title>
+            <link>https://valaxy.site/posts/naive-ui-provider-management</link>
+            <guid>https://valaxy.site/posts/naive-ui-provider-management</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Preface（前言）</h2>
+<p>You can encapsulate a component to manage all NaiveUI providers in the project, whi</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[发布-订阅模式]]></title>
+            <link>https://valaxy.site/posts/publish&amp;subscribe</link>
+            <guid>https://valaxy.site/posts/publish&amp;subscribe</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-javascript">class EventEmitter {
+  constructor() {
+    this.cache = new Map();
+  }
+
+  // 订阅
+  on </code></pre>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[Rust 的子类型化和变异性]]></title>
+            <link>https://valaxy.site/posts/rust-subtyping&amp;variance</link>
+            <guid>https://valaxy.site/posts/rust-subtyping&amp;variance</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>最近学习 rust 文档的 [subtyping-and-variance](<a href="https://doc.rust-lang.org/reference/subtyping.html#su">https://doc.rust-lang.org/reference/subtyping.html#su</a></p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[编程题积累]]></title>
+            <link>https://valaxy.site/posts/scriptRecord</link>
+            <guid>https://valaxy.site/posts/scriptRecord</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>异步调用队列</h2>
+<pre><code class="language-javascript">class Queue {
+  constructor(name) {
+    this.name = name;
+    this.result </code></pre>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何给开源项目贡献代码]]></title>
+            <link>https://valaxy.site/posts/github/index</link>
+            <guid>https://valaxy.site/posts/github/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>“开源”通常指开源模型，是一种去中心化的软件开发模型，它鼓励开放式协作，即“任何创新或生产系统都依赖于以目标为导向但松散协调的参与者进行交互来创建具有经济价值的产品（或服务），它们可以</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[webpack基础学习]]></title>
+            <link>https://valaxy.site/posts/webpack-base/index</link>
+            <guid>https://valaxy.site/posts/webpack-base/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>webpack 是什么</h2>
+<p>webpack 是一种前端资源构建工具，一个静态模块打包器（module bundler）。在 webpack 看来，前端的所有资源文件（js 、json 、css</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[函数式编程]]></title>
+            <link>https://valaxy.site/posts/functional</link>
+            <guid>https://valaxy.site/posts/functional</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>面向对象编程(OOP)通过封装变化使得代码更易理解。 函数式编程(FP)通过最小化变化使得代码更易理解。</p>
+<p>-- Michacel Feathers（Twitter）</p>
+</blockquote>
+<h2>什么是函数式</h2>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[剑指 offer 刷题总结]]></title>
+            <link>https://valaxy.site/posts/getOffer</link>
+            <guid>https://valaxy.site/posts/getOffer</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>重建二叉树</h3>
+<p>输入某二叉树的前序遍历和中序遍历的结果，请构建该二叉树并返回其根节点。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。[Leetcode 剑指 offer 07](htt</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript中的继承]]></title>
+            <link>https://valaxy.site/posts/extend/index</link>
+            <guid>https://valaxy.site/posts/extend/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>继承是面向对象编程思想中很重要的一个概念，它与多态、封装共为面向对象的三个基本特征。继承不但帮助我们拓展了代码的可解释性，还能提升代码的可复用性。A 对象通过继承 B 对象，就能直接拥</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[Git学习笔记]]></title>
+            <link>https://valaxy.site/posts/git/index</link>
+            <guid>https://valaxy.site/posts/git/index</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Git 的诞生</h2>
+<p>很多人都知道，Linus 在 1991 年创建了开源的 Linux，从此，Linux 系统不断发展，已经成为最大的服务器系统软件了。Linus 虽然创建了 Linux，但 L</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[LRU 缓存]]></title>
+            <link>https://valaxy.site/posts/LRUCache</link>
+            <guid>https://valaxy.site/posts/LRUCache</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-javascript">class LRUCache {
+  constructor(capacity) {
+    this.map = new Map();
+    this.capacit</code></pre>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[Leetcode 刷题总结]]></title>
+            <link>https://valaxy.site/posts/LeetcodeSummary</link>
+            <guid>https://valaxy.site/posts/LeetcodeSummary</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>链表相关</h2>
+<h3>反转链表</h3>
+<p>给你单链表的头节点 <code>head</code>，请你反转链表，并返回反转后的链表。[Leetcode 206](<a href="https://leetcode-cn.com/problem">https://leetcode-cn.com/problem</a></p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[ES6 实现 call & apply & bind]]></title>
+            <link>https://valaxy.site/posts/call&amp;apply&amp;bind</link>
+            <guid>https://valaxy.site/posts/call&amp;apply&amp;bind</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>注：本文只是简单实现，表达核心原理，边界情况不予考虑</strong></p>
+<h2>call</h2>
+<pre><code class="language-javascript">Function.prototype.myCall = function (thisBi</code></pre>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[Vue组件化技巧总结]]></title>
+            <link>https://valaxy.site/posts/componentization</link>
+            <guid>https://valaxy.site/posts/componentization</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>为了提高编程效率，程序员们总是会将写过的代码进行抽象去业务化并进行抽离，这种“高内聚，低耦合”增加代码复用性的做法久而久之便形成了组件化的思想。组件化能提高开发效率，方便代码的重复使用</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[防抖 & 节流]]></title>
+            <link>https://valaxy.site/posts/debounce&amp;throttle</link>
+            <guid>https://valaxy.site/posts/debounce&amp;throttle</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>防抖（debounce）</h2>
+<p>防抖的原理是：当事件触发时，所触发的回调函数在 n 秒后执行，在这 n 秒内如果事件再次触发，则以新的事件的时间为准，n 秒后再执行新的回调函数。</p>
+<h3>简单版</h3>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+        <item>
+            <title><![CDATA[MacOS、Linux 系统制作自定义脚本]]></title>
+            <link>https://valaxy.site/posts/executableScript</link>
+            <guid>https://valaxy.site/posts/executableScript</guid>
+            <pubDate>Fri, 01 Mar 2024 01:52:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>如今的电脑系统越来越强大，功能越来越多。为了方便用户的使用，开发者们会按使用频率、重要性等指标对系统的功能进行归类、折叠。这就造成我们想使用一个一般用户不经常使用的功能时，需要寻找到很</p>
+]]></content:encoded>
+            <author>xiezongchen_mail@126.com (XieZongChen)</author>
+        </item>
+    </channel>
+</rss>
